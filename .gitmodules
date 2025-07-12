@@ -1,3 +1,0 @@
-[submodule "external/vscode"]
-	path = external/vscode
-	url = https://github.com/microsoft/vscode
