@@ -1,0 +1,29 @@
+{
+  "name": "code-recorder",
+  "version": "0.0.1",
+  "description": "Record your code and play it back. An interactive code learning platform. An open source analog of Scrimba.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itihon/code-recorder.git"
+  },
+  "keywords": [
+    "interactive",
+    "learning",
+    "code",
+    "record",
+    "playback"
+  ],
+  "author": "Alexandr Kalabin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itihon/code-recorder/issues"
+  },
+  "homepage": "https://github.com/itihon/code-recorder#readme"
+}
