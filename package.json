@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/itihon/code-recorder#readme",
   "dependencies": {
-    "@itihon/file-tree-view": "^0.0.1"
+    "@itihon/file-tree-view": "^0.0.1",
+    "split.js": "^1.6.5"
   }
 }
