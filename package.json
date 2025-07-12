@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/itihon/code-recorder/issues"
   },
-  "homepage": "https://github.com/itihon/code-recorder#readme"
+  "homepage": "https://github.com/itihon/code-recorder#readme",
+  "dependencies": {
+    "@itihon/file-tree-view": "^0.0.1"
+  }
 }
