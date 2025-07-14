@@ -33,6 +33,7 @@
     "split-grid": "^1.0.11"
   },
   "devDependencies": {
+    "typescript": "^5.8.3",
     "vite": "^7.0.4",
     "vite-plugin-monaco-editor": "^1.1.0"
   }
