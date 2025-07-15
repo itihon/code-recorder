@@ -28,6 +28,7 @@
   "homepage": "https://github.com/itihon/code-recorder#readme",
   "dependencies": {
     "@itihon/file-tree-view": "^0.0.1",
+    "@itihon/split-pane": "^0.0.2",
     "@xterm/xterm": "^5.5.0",
     "monaco-editor": "^0.52.2"
   },
