@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box; 
+  padding: 0;
+  margin: 0;
+  --vscode-scrollbarSlider-background: rgba(121, 121, 121, 0.4);
+/*   --vscode-scrollbarSlider-hoverBackground: rgba(100, 100, 100, 0.7);
+  --vscode-scrollbarSlider-activeBackground: rgba(191, 191, 191, 0.4); */
+  scrollbar-color: var(--vscode-scrollbarSlider-background) #1e1e1e !important;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+split-pane {
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+file-tree-view {
+  color: #c8c8c8;
+  background-color: #1e1e1e !important;
+}
+
+.sp-splitter {
+  background-color: #3d434f;
+  z-index: 1000;
+}
+
+.sp-splitter:hover,
+.resizing > .sp-splitter:active {
+  outline: 1px solid deepskyblue;
+  background-color: deepskyblue;
+}
+
+#terminal, #editor {
+  width: 100%; 
+  height: 100%; 
+  overflow: hidden;
+  background-color: #1e1e1e;
+}
+
+#terminal .terminal::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 13.5px;
+  height: 100%;
+  width: .5px;
+  background-color: #2e2e2e;
+}
+
+#editor .scrollbar.vertical > .slider {
+  border-radius: 8px;
+  width: 9px !important;
+  left: 3px !important;
+}

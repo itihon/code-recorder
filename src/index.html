@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Recorder</title>
+    <meta name="description" content="This is a description.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="./assets/code-svgrepo-com.svg">
+  </head>
+  <body>
+    <script type="module" src="index.ts"></script>
+
+    <split-pane type="horizontal">
+
+      <file-tree-view id="file_explorer" style="width: 100%; height: 100%;">
+        <ftv-folder name="folder1" expanded>
+            <ftv-file name="file1"></ftv-file>
+            <ftv-folder name="folder2">
+                <ftv-file name="file3"></ftv-file>
+                <ftv-file name="file4"></ftv-file>
+                <ftv-folder name="folder3"></ftv-folder>
+            </ftv-folder>
+            <ftv-folder name="folder4">
+                <ftv-file name="file5"></ftv-file>
+                <ftv-file name="file6"></ftv-file>
+                <ftv-folder name="folder5"></ftv-folder>
+            </ftv-folder>
+        </ftv-folder>
+      </file-tree-view>
+
+      <split-pane type="vertical">
+        <div id="editor"></div>
+        <div id="terminal"></div>
+      </split-pane>
+
+      <div> some content</div>
+
+    </split-pane>
+
+        
+<!--     <div style="resize: horizontal; border: 1px solid gray; width: 90vw; overflow: scroll;">
+      <split-pane type="horizontal">
+        <div>pane 1</div>
+        <div>pane 2</div>
+        <div>pane 3</div>
+      </split-pane>
+    </div>
+    
+    <split-pane type="vertical">
+      <div>pane 1</div>
+      <div>pane 2</div>
+      <div>pane 3</div>
+    </split-pane> -->
+
+  </body>
+</html>
