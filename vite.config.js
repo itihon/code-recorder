@@ -14,6 +14,9 @@ export default defineConfig(({ command, mode }) => {
   else return {
     root: 'src',
     publicDir: 'public',
+    server: {
+      host: true,
+    },
     plugins: [
       monacoEditorPlugin({
         // Options can be specified here
